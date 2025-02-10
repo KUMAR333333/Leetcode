@@ -1,6 +1,5 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        # Use dictionaries to store the mapping
         s_map = {}
         t_map = {}
         
